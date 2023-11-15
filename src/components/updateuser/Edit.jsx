@@ -6,23 +6,19 @@ import toast from 'react-hot-toast';
 
 const Edit = () => {
 
- const users = {
-    fname: "",
-    Cname: "",
-    JobLoc:"",
-    JobExp:"",
-    JType:"",
-    JDesc:"",
-    JSkill:"",
-    JRole:"",
-    JobLink:""
-
-
-
-
+const users = {
+    JProfile: "",
+    CompanyName: "",
+    JobLocation:"",
+    JobExperience:"",
+    JobDescription:"",
+    JobSkills:"",
+    JobRole:"",
+    ApplyLink:"",
 
 
  }
+
 
  const {id} = useParams();
  const navigate = useNavigate();
