@@ -65,10 +65,7 @@ const Add = () => {
                 <label htmlFor="fname">Job Profile</label>
                 <input type="text" onChange={inputHandler} id="JProfile" name="JProfile" autoComplete='off' placeholder='Job Role' />
             </div>
-            <div className="inputGroup">
-                <label htmlFor="Photo">Photo</label>
-                <input type="file"  accept=".jpg, .png,.jpeg" name="photo"onChange={handlerchange} id="photo" />
-            </div>
+           
             <div className="inputGroup">
                 <label htmlFor="Cname">Company Name</label>
                 <input type="text" onChange={inputHandler} id="CompanyName" name="CompanyName" autoComplete='off' placeholder='Company Name' />
