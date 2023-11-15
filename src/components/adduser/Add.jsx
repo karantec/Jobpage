@@ -8,7 +8,6 @@ const Add = () => {
 
   const users = {
     JProfile: "",
-    photo:"",
     CompanyName: "",
     JobLocation:"",
     JobExperience:"",
